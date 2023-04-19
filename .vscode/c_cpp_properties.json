@@ -1,0 +1,83 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/include",
+                "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/Marlin",
+                "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/TMC26XStepper",
+                "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/SlowSoftI2CMaster",
+                "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/SailfishRGB_LED",
+                "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/SailfishLCD",
+                "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/Arduino-L6470/src",
+                "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/LiquidTWI2",
+                "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/Adafruit_MAX31865",
+                "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/Adafruit BusIO_ID6214",
+                "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/U8glib-HAL_ID1932/src",
+                "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/Adafruit NeoPixel_ID28",
+                "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/TMCStepper_ID5513/src",
+                "C:/Users/zmp/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "C:/Users/zmp/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/LiquidCrystal_ID136",
+                "C:/Users/zmp/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "C:/Users/zmp/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "C:/Users/zmp/.platformio/packages/framework-arduino-avr/variants/mega",
+                "C:/Users/zmp/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "C:/Users/zmp/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "C:/Users/zmp/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/include",
+                    "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/Marlin",
+                    "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/TMC26XStepper",
+                    "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/SlowSoftI2CMaster",
+                    "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/SailfishRGB_LED",
+                    "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/SailfishLCD",
+                    "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/Arduino-L6470/src",
+                    "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/LiquidTWI2",
+                    "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/Adafruit_MAX31865",
+                    "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/Adafruit BusIO_ID6214",
+                    "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/U8glib-HAL_ID1932/src",
+                    "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/Adafruit NeoPixel_ID28",
+                    "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/TMCStepper_ID5513/src",
+                    "C:/Users/zmp/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "C:/Users/zmp/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "E:/OneDrive/Projetos 3d/Settings/Marlin AnetA8/.pio/libdeps/mega2560/LiquidCrystal_ID136",
+                    "C:/Users/zmp/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "C:/Users/zmp/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "C:/Users/zmp/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "C:/Users/zmp/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "C:/Users/zmp/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "C:/Users/zmp/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50101",
+                "ARDUINO_AVR_MEGA2560",
+                "__MARLIN_FIRMWARE__",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/zmp/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega2560",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

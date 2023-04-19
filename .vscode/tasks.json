@@ -1,0 +1,42 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+    {
+      "type": "PlatformIO",
+      "task": "Build",
+      "problemMatcher": [
+        "$platformio"
+      ],
+      "group": "build",
+      "label": "PlatformIO: Build"
+    },
+    {
+      "type": "PlatformIO",
+      "task": "Upload",
+      "problemMatcher": [
+        "$platformio"
+      ],
+      "label": "PlatformIO: Upload"
+    },
+    {
+      "type": "shell",
+      "command": "copy",
+      "args": [
+        "${workspaceFolder}/.pio/build/mks_robin_nano_v3_usb_flash_drive_msc/Robin_nano_v3.bin",
+        "G:"
+      ],
+      "label": "Copy firmware",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "command": "cp",
+      "args": [
+        "${workspaceFolder}/.pio/build/mks_robin_nano_v3_usb_flash_drive_msc/Robin_nano_v3.bin",
+        "/media/daniel/ESD-ISO/Robin_nano_v3.bin"
+      ],
+      "label": "Copy firmware Linux",
+      "problemMatcher": []
+    }
+  ]
+}
